@@ -1,7 +1,7 @@
 import random
 
 
-def try_me(name, question):
+def try_me():
     random_number = random.randint(1, 9)
     answer = ""
     random_number = random.randint(1, 9)
@@ -25,4 +25,4 @@ def try_me(name, question):
         answer = "Very doubtful."
     else:
         answer = "Error"
-    return f"{name} asks {question}.... and the mighty Magic Ball's answer is: {answer}"
+    return f"The mighty Magic Ball's answer is: {answer}"
